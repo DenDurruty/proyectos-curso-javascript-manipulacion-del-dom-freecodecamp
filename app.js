@@ -14,6 +14,7 @@ function generarColorHexAleatorio() {
 
     return colorHex;
 }
+//
 
 boton.addEventListener('click', function() {
     let colorAleatorio = generarColorHexAleatorio();
@@ -22,4 +23,3 @@ boton.addEventListener('click', function() {
     // Actualizar el color de fondo
     document.body.style.backgroundColor = colorAleatorio;
 });
-
